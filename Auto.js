@@ -7,11 +7,7 @@ class Auto{
         this.kilometraje = 0;
     }
 
-    encender(){
-        this.estado = "Encendido";
-    }
-
-    apagar(){
-        this.estado = "Apagado";
+    mostrarEstado() {
+        console.log(`El auto ${this.marca} ${this.color} del año ${this.modelo} tiene un kilometraje de ${this.kilometraje}kms y está ${this.estado}` );
     }
 }
